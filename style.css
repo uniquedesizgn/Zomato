@@ -1,0 +1,237 @@
+/* Common Elements */
+*{
+ margin: 0px;
+ padding: 0px;
+box-sizing: border-box;
+}
+
+#top{
+position: fixed;
+right: 30px;
+bottom: 30px;
+}
+
+.servicesh1{
+    font-family: 'Lobster', cursive;
+    color: brown;
+    text-align: center;
+    font-size: 35px;
+}
+
+.hr1{
+    border: 1px;
+    border-color: rgb(255, 94, 8);
+    border-style: solid;
+    margin: 0;
+    opacity:1;
+}
+
+.maintitle{
+    font-family: 'Lobster', cursive;
+    color: rgba(253, 253, 253, 0.964);
+    font-size: 110px;
+    text-align: center;
+}   
+.subtitle1{
+    font-family: 'Lobster', cursive;
+    color: rgba(253, 253, 253, 0.964);
+    font-size: 35px;
+    text-align: center;
+}
+
+.subtitle2{
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/* Navigation Bar CSS Starts */
+
+
+#navbar{
+    display: flex;
+    background-color: rgba(255, 157, 0, 0.916);
+    height: 80px;
+    align-items: center;
+    font-family: 'Abril Fatface',cursive;
+    position:sticky;
+    top: 0px;}
+
+/* logo */
+#logo{
+    width: 15% ;   
+}
+
+
+#logoimg{
+    height: 55px;
+    margin: 12px 40px;
+    border-radius: 22px;
+}
+/* Navigation Links */
+
+#navlinks{
+    width: 70%;
+  
+}
+
+#links{display: flex;
+list-style: none;
+justify-content: center;
+}
+.linkitem{
+  
+}
+.linka{
+padding: 10px;
+margin: 15px;
+text-decoration: none;
+border-radius: 20px;
+color: white;
+font-size: 22px;
+}
+#links a:hover{
+    background-color: rgba(157, 81, 229, 0.934);
+    color: rgb(15, 8, 8);
+    transition: 1s;
+}
+.currentpage{
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+/* social media links  */
+
+#socialmedia{
+/* margin-left: 80px;*/
+margin-left: 200px;
+text-align: center;
+margin: auto;
+ }
+
+#socialmedia img{
+    border-radius: 10px;
+}
+#socialmedia img:hover{
+   transform: scale(1.2);
+   box-shadow: 0px 0px 25px 0px rgb(246, 250, 250);  
+   transition: 1s;
+}
+
+/* Navigation Bar CSS Ends */
+
+
+ /* Home Content CSS Starts  Here */
+
+ #homecontent{
+    height: 700px;
+    background-image: url(platter.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+    
+
+ /* Home Content CSS  Ends  Here */
+ 
+ /* Facilities CSS Starts Here */
+ #facilities{
+ display: flex;
+ justify-content:space-around ;
+ height: 300px;
+ /* align-items: center; */
+ background-color: rgba(24, 5, 5, 0.968);
+ }
+
+.facilityclass{
+text-align: center;
+margin-top: 25px;
+ }
+
+ #facilities img{
+height: 150px;
+}
+
+ .facilitypara1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.facilitypara2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 13px;
+}
+ 
+ /* Facilities CSS  Ends Here */
+
+
+/* Footer CSS */
+
+#footer{
+display: flex;
+background-color: rgb(255, 159, 5);
+height: 50px;
+/* align-items: center; */
+line-height: 60px;
+justify-content: center;
+font-family: 'Abril Fatface',cursive;
+color: white;}
+
+/* Services CSS Starts Here */
+
+#servicescontent{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicesbox{
+width: 700px;
+height: 500px;
+border-radius: 25px;
+border: 2px solid brown;
+margin: 10px;
+padding: 10px;
+}
+.servicesbox h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+.servicesbox p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 25px; 
+}
+
+/* Services CSS Starts End Here */
+
+/* Contact Us CSS Start Here */
+
+#contactuscontent{
+    height: 450px;
+    background-image: url(contact\ food.jpeg);
+    background-position: bottom;
+}
+#contactuscontent h1{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 200px;
+}
+   
+
+
+
+/* Contact Us CSS Ends Here */
+
